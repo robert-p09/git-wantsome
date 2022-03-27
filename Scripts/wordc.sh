@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=$2
+FILE=${!#}
 
 function file {
 if [[ -f $FILE ]]; then
