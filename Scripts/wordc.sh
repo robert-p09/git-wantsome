@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#script that allows to count characters, words, lines in text files or strings
 FILE=${!#}
 
 function file {
